@@ -1,0 +1,207 @@
+.dashboard-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f4fff9, #e8f7f0);
+  padding: 50px 20px;
+  font-family: "Segoe UI", sans-serif;
+  min-width: 100vh;
+}
+
+.dashboard-title {
+  text-align: center;
+  font-size: 42px;
+  color: #0c7a57;
+  margin-bottom: 8px;
+}
+
+.dashboard-subtitle {
+  text-align: center;
+  color: #5f7d73;
+  margin-bottom: 45px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.dash-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 40px 20px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.dash-card span {
+  font-size: 48px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.dash-card h3 {
+  color: #0c7a57;
+  font-size: 22px;
+}
+
+.dash-card:hover {
+  transform: translateY(-8px);
+  border-color: #0c7a57;
+  box-shadow: 0 20px 45px rgba(12, 122, 87, 0.2);
+}
+/* =========================
+   DATA TABLE STYLING
+========================= */
+
+.data-section {
+  margin-top: 40px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  overflow-x: auto;
+}
+
+.data-section h2 {
+  margin-bottom: 15px;
+  color: #0c7a57;
+  font-size: 22px;
+  font-weight: 600;
+  border-left: 5px solid #0c7a57;
+  padding-left: 10px;
+}
+
+/* Table wrapper */
+.data-section table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+  background-color: #fff;
+}
+
+/* Table header */
+.data-section thead {
+  background: linear-gradient(135deg, #0c7a57, #16a085);
+}
+
+.data-section thead th {
+  padding: 12px 14px;
+  text-align: left;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  white-space: nowrap;
+  border-radius: 10px;
+}
+
+/* Table body */
+.data-section tbody tr {
+  transition: background 0.3s ease;
+}
+
+.data-section tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.data-section tbody tr:hover {
+  background-color: #eafaf5;
+}
+
+/* Table cells */
+.data-section td,
+.data-section th {
+  padding: 12px 14px;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 14px;
+  color: #333;
+  vertical-align: top;
+  word-break: break-word;
+}
+
+/* Key column (object view) */
+.data-section tbody th {
+  width: 220px;
+  background-color: #f4fdf9;
+  font-weight: 600;
+  color: #0c7a57;
+}
+
+/* No data text */
+.data-section p {
+  color: #d32f2f;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+  .data-section {
+    padding: 15px;
+  }
+
+  .data-section h2 {
+    font-size: 18px;
+  }
+
+  .data-section table {
+    font-size: 13px;
+  }
+
+  .data-section td,
+  .data-section th {
+    padding: 10px;
+  }
+}
+
+/* =========================
+   SCROLLBAR (Optional)
+========================= */
+.data-section::-webkit-scrollbar {
+  height: 8px;
+}
+
+.data-section::-webkit-scrollbar-thumb {
+  background: #0c7a57;
+  border-radius: 10px;
+}
+
+.data-section::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+.cnic-card {
+  margin-top: 30px;
+  padding: 25px;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 12px;
+  background: #f4f6fa;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.cnic-card h2 {
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+.btn-add,.btn-view{
+  color: #0c7a57;
+  background-color: transparent;
+  border-radius: 10px;
+  margin:1px;
+  width:100px;
+  border: 2px solid #0c7a57;
+}
+
+.btn-add:hover,.btn-view:hover{
+  /* color: white; */
+  background-color: #0c7a57;
+  color: white;
+}

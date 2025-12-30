@@ -1,0 +1,378 @@
+.a1pic1 {
+  width: 400px;
+  height: 600px;
+}
+#hh1 {
+  text-align: start;
+  margin-top: 70px;
+}
+.ppic1 {
+  width: 25vw;
+}
+/* @keyframes leftt {
+  1% {
+    width: 100%;
+  }
+  25% {
+    width: 80%;
+  }
+  50% {
+    width: 50%;
+  }
+  75% {
+    width: 25%;
+  }
+  100% {
+    width: 0px;
+  }
+} */
+
+.pp-5 {
+  padding: 100px;
+  border-radius: 100px;
+  background-color: white;
+  border: none;
+  box-shadow: #002b1d 50px 50px 100px, #002b1d -50px -50px 100px;
+  /* transition: 5s all;
+  transform-origin: bottom;
+  animation: leftt linear forwards;
+  animation-timeline: view();
+  animation-range: exit; */
+}
+
+.pp-6 {
+  padding: 100px;
+  background: linear-gradient(45deg, #0c7a57, #0c7a577a, #106363);
+}
+
+.pppp {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  margin-top: -50px;
+  padding-left: 600px;
+}
+/*  style={{ textAlign: "center", fontSize: "30px", color: "white" }} */
+.bgpp {
+  /* background: url("../assets/pakistan.png"); */
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 5s all;
+  transform-origin: bottom;
+  animation: imgAnimation linear forwards;
+  animation-timeline: view();
+  animation-range: exit;
+}
+
+.bgp {
+  background: linear-gradient(45deg, #0c7a57ed, rgba(255, 255, 0, 0.282));
+  /* color: transparent; */
+  z-index: 1;
+
+  height: 93.5vh;
+  transition: 5s all;
+  transform-origin: bottom;
+  /* animation: imgAni linear forwards;
+  animation-timeline: view();
+  animation-range: exit;*/
+} 
+/* @keyframes imgAni {
+  to {
+    scale: 0;
+  }
+  from {
+    scale: 1;
+  }
+} */
+/* @keyframes imgAnimation {
+  to {
+    scale: 0;
+  }
+} */
+/* z-index: -2;
+  transform: scale(1);
+  transform-origin: bottom;
+  animation: videoAnimation linear forwards;
+  animation-timeline: view();
+  animation-range: exit;
+  transition: 1.5s;
+}
+@keyframes videoAnimation{
+  25%{scale: 1; width: 0px;}
+  55% { scale: 2;
+  width: 0px;}
+  100% {scale: 2; width: 0px;}
+   }  */
+@keyframes back {
+  0% {
+    background: linear-gradient(45deg, #0c7a57ed, rgba(255, 255, 0, 0.282));
+  }
+  50% {
+    background: linear-gradient(
+      45deg,
+      rgba(255, 255, 0, 0.282),
+      rgba(111, 111, 35, 0.635),
+      #0c7a57ed,
+      #002b1d
+    );
+  }
+}
+.bgph1 {
+  font-size: 100px;
+  text-align: center;
+  padding-top: 300px;
+  word-spacing: 0px;
+  letter-spacing: -5px;
+  color: #002b1d;
+  color: white;
+  font-weight: 700;
+  /* text-shadow: #467a697a 0px -50px 10px; */
+}
+.scroll-watcher {
+  height: 10px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(224, 224, 224, 0.621);
+  width: 100%;
+  scale: 0 1;
+  animation: scroll-watcher linear;
+  animation-timeline: scroll();
+  transform-origin: left;
+}
+@keyframes scroll-watcher {
+  to {
+    scale: 1 1;
+  }
+}
+.mainParent {
+    background-color: #F2F2F2;
+    height: 100vh;
+    padding-top: 15vh;
+
+}
+
+.forFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardOneParent {
+    /* border: 1px solid blue; */
+    width: 48%;
+}
+
+.cardOneParent span {
+    display: block;
+}
+
+.cardOneParent h1 {
+    font-weight: bold;
+    font-size: 4.2em;
+    color: #006600;
+}
+
+.cardOneParent p {
+    font-size: 1.8em;
+    font-weight: 100;
+}
+
+.imgSec img {
+    width: 230px;
+}
+
+.imgSec {
+    display: flex;
+    gap: 20px;
+}
+
+.cardTwoParent {
+    width: 500px;
+    
+    /* border: 1px solid pink; */
+}
+
+.cardTwoParent img {
+    width: 100%;
+}
+
+
+@media only screen and (max-width:764px) {
+    .forFlex {
+        flex-direction: column;
+    }
+
+    .cardOneParent {
+
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .cardOneParent h1,.cardOneParent p {
+        text-align: center;
+        /* border: 1px solid green; */
+    }
+
+    .cardTwoParent {
+        display: flex;
+        justify-content: center;
+        /* border: 2px solid black; */
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .cardTwoParent img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:512px) {
+    .imgSec img {
+        width: 40%;
+    }
+    .imgSec{
+        justify-content: center;
+    }
+     .cardTwoParent img{
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Digital Comp part two code starts here */
+.mainParentTwo {
+        background: linear-gradient(45deg, #0c7a57ed, rgba(255, 255, 0, 0.282));
+    height: 350px;
+    padding-top: 55px;
+    margin-bottom: 150px;
+    /* margin-top: 70px; */
+}
+
+.forFlexTwo {
+    /* border: 1px solid yellow; */
+    background-color: white;
+    /* margin-top: 200px; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    
+}
+
+.forImg {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 290px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.otherImg {
+    /* width: 400px; */
+    width: 100%;
+    margin-bottom: 20px;
+    /* border: 2px solid black; */
+}
+
+.forText {
+    line-height: 5px;
+    margin-top: 10px;
+}
+
+.forText2 {
+    line-height: 20px !important;
+    justify-content: space-between;
+}
+
+.forText h6 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.forText p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.cardOneParentPartTwo {
+    /* border: 1px solid green; */
+    width: 44%;
+}
+
+.cardOneParentPartTwoOther {
+    width: 50%;
+}
+
+.forListinf ul {
+    /* border: 1px solid blue; */
+    padding: 0;
+    padding-left: 17px;
+}
+
+.forListinf ul li {
+    margin-top: 10px;
+    font-weight: 340;
+}
+
+.specList {
+    list-style: none;
+    /* border: 1px solid brown; */
+    margin-left: -16px;
+}
+
+
+
+@media only screen and (max-width:781px) {
+    .forFlexTwo {
+        flex-direction: column;
+    }
+
+    .cardOneParentPartTwo {
+        width: 100%;
+    }
+
+    .mainParentTwo {
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width:515px) {
+
+    .mainParentTwo {
+        height: 85vh;
+    }
+}
+
+@media only screen and (max-width:422px) {
+
+    .mainParentTwo {
+        height: 90vh;
+    }
+}
+
+
+/* Digital Comp part two code ends here */
+
+
+
+.head1{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 70px;
+}

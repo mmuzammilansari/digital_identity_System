@@ -1,0 +1,10 @@
+.bg1 {
+  height: 92vh;
+  margin-bottom: 100px;
+  /* animation: back 5s linear infinite; */
+  /* transition: 5s all;
+  transform-origin: bottom;
+  animation: imgAnimation linear forwards;
+  animation-timeline: view();
+  animation-range: exit; */
+}

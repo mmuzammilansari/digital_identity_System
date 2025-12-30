@@ -1,0 +1,105 @@
+.checknic-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f4fff9, #e8f7f0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 15px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.checknic-card {
+  background: #ffffff;
+  max-width: 900px;
+  width: 100%;
+  padding: 40px;
+  border-radius: 22px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+}
+
+.checknic-card h1 {
+  text-align: center;
+  color: #0c7a57;
+}
+
+.subtitle {
+  text-align: center;
+  color: #5f7d73;
+  margin-bottom: 30px;
+}
+
+.checknic-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.checknic-form input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1.5px solid #cfe7dd;
+  background: #f9fffc;
+}
+
+.checknic-form input:focus {
+  outline: none;
+  border-color: #0c7a57;
+}
+
+.checknic-form button {
+  grid-column: span 2;
+  background: linear-gradient(135deg, #0c7a57, #1aa36f);
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nic-info {
+  margin-top: 40px;
+}
+
+.nic-info h2 {
+  color: #0c7a57;
+  margin-bottom: 15px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.status.approved {
+  color: green;
+  font-weight: bold;
+}
+
+.status.pending {
+  color: orange;
+  font-weight: bold;
+}
+
+.documents {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.documents img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #d8eee4;
+}
+
+.back-link {
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+  color: #0c7a57;
+  font-weight: 600;
+  text-decoration: none;
+}

@@ -1,0 +1,33 @@
+/* about.css */
+
+.section {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.title {
+  color: #333;
+  font-size: 24px;
+}
+
+.services {
+  margin-top: 20px;
+}
+
+.psec {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.psec p {
+  color: #666;
+  font-size: 16px;
+}
+footer {
+  background: linear-gradient(45deg, #0f3025f4, #021a12c2, #001b1bad);
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}

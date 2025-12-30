@@ -1,0 +1,122 @@
+:root {
+  --primary-green: #0c7a57;
+  --primary-green-dark: #075c42;
+  --light-green-bg: #eafaf5;
+  --danger-red: #c62828;
+}
+
+/* PAGE */
+.admin-verify-container {
+  padding: 50px 20px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f4fff9, #e8f7f0);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.admin-title {
+  text-align: center;
+  font-size: 34px;
+  color: var(--primary-green);
+  margin-bottom: 40px;
+}
+
+/* CARD */
+.verify-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.cnic-heading {
+  font-size: 18px;
+  color: var(--primary-green);
+  margin-bottom: 18px;
+}
+
+.cnic-heading span {
+  font-weight: 600;
+}
+
+/* TABLE */
+.verify-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.verify-table th {
+  background: var(--primary-green);
+  color: #fff;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.verify-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 14px;
+}
+
+/* MODULE */
+.module-name {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* STATUS */
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-badge.pending {
+  background: #fff8e1;
+  color: #f9a825;
+}
+
+.status-badge.verified {
+  background: #e6f6ef;
+  color: var(--primary-green);
+}
+
+.status-badge.rejected {
+  background: #fdecea;
+  color: var(--danger-red);
+}
+
+/* ACTION LINKS */
+.action-links {
+  display: flex;
+  gap: 14px;
+}
+
+.action-link {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: underline;
+  padding: 0;
+}
+
+/* APPROVE */
+.action-link.approve {
+  color: var(--primary-green);
+}
+
+.action-link.approve:hover {
+  color: var(--primary-green-dark);
+}
+
+/* REJECT */
+.action-link.reject {
+  color: var(--danger-red);
+}
+
+.action-link.reject:hover {
+  color: #8e0000;
+}

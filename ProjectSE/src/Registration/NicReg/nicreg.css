@@ -1,0 +1,111 @@
+.nicreg-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f4fff9, #e8f7f0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 15px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.nicreg-card {
+  background: #ffffff;
+  width: 100%;
+  max-width: 900px;
+  padding: 40px;
+  border-radius: 22px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+}
+
+.nicreg-card h1 {
+  text-align: center;
+  color: #0c7a57;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #5f7d73;
+  margin-bottom: 30px;
+}
+
+.nicreg-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.nicreg-form input[type="text"],
+.nicreg-form input[type="date"],
+.nicreg-form input[type="file"] {
+  padding: 12px 14px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1.5px solid #cfe7dd;
+  background-color: #f9fffc;
+}
+
+.nicreg-form input:focus {
+  outline: none;
+  border-color: #0c7a57;
+}
+
+.inline-actions {
+  display: flex;
+  gap: 12px;
+  grid-column: span 2;
+}
+
+.inline-actions button {
+  background: #0c7a57;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.inline-actions button:hover {
+  background: #095f44;
+}
+
+.inline-actions input {
+  flex: 1;
+  background: #eef8f3;
+}
+
+h3 {
+  grid-column: span 2;
+  margin-top: 20px;
+  color: #0c7a57;
+}
+
+.submit-btn {
+  grid-column: span 2;
+  background: linear-gradient(135deg, #0c7a57, #1aa36f);
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 14px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+}
+
+.status-link {
+  display: block;
+  text-align: center;
+  margin-top: 25px;
+  color: #0c7a57;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.status-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,38 @@
+.table-wrapper {
+  margin: 30px 0;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.table-title {
+  background: #4caf50;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  border-radius: 6px 6px 0 0;
+  font-size: 18px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th {
+  background: #4caf50;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.data-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.data-table tr:hover {
+  background: #f1f1f1;
+}
